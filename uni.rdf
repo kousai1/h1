@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:svu="http://universitiesinsyria.dyndns.org:2017/files/rdfs.rdf#">
+
+
+
+
+
+	<svu:Program rdf:ID="guid_29e295e4-299f-4d47-8a07-4134d12c6a57">
+		<svu:programCode rdf:resource="BIT"/>
+		<svu:programName rdf:resource="Bachelor in Information Technology"/>
+		<svu:programDirector rdf:resource="#guid_674584ec-4c09-4131-9e8f-bf2e61e6b3e6"/>
+		<svu:programAtUni rdf:resource="http://dbpedia.org/resource/Syrian_Virtual_University"/>
+	</svu:Program>
+
+	<svu:Program rdf:ID="guid_306f7caa-8051-4fa1-89a1-5bc0f7e986c5">
+		<svu:programCode rdf:resource="BSCE"/>
+		<svu:programName rdf:resource="Bachelor of Science in Economics"/>
+		<svu:programDirector rdf:resource="#guid_e2c8b2f9-7537-4d6f-a8b7-7531a710e5d2"/>
+		<svu:programAtUni rdf:resource="http://dbpedia.org/resource/Syrian_Virtual_University"/>
+	</svu:Program>
+
+	<svu:Program rdf:ID="guid_3d627979-ec49-436c-acd3-ec27bffc1891">
+		<svu:programCode rdf:resource="MWS"/>
+		<svu:programName rdf:resource="Master in Web Sciences"/>
+		<svu:programDirector rdf:resource="#guid_fd3555a6-7baf-4762-a09e-d2f047914559"/>
+		<svu:programAtUni rdf:resource="http://dbpedia.org/resource/Syrian_Virtual_University"/>
+	</svu:Program>
+
+	<svu:Program rdf:ID="guid_70ad39c0-d2dc-4380-abcb-19712fa9aec2">
+		<svu:programCode rdf:resource="ISE"/>
+		<svu:programName rdf:resource="B. S. in Information Systems Engineering"/>
+		<svu:programDirector rdf:resource="#guid_7694c22f-d330-4cfd-8973-2e528378416f"/>
+		<svu:programAtUni rdf:resource="http://dbpedia.org/resource/Syrian_Virtual_University"/>
+	</svu:Program>
+
+	<svu:Program rdf:ID="guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79">
+		<svu:programCode rdf:resource="MBA"/>
+		<svu:programName rdf:resource="Master of Business Administration"/>
+		<svu:programDirector rdf:resource="#guid_6107dc9e-72fe-429a-94f9-c7380bd7ca45"/>
+		<svu:programAtUni rdf:resource="http://dbpedia.org/resource/Syrian_Virtual_University"/>
+	</svu:Program>
+
+	<svu:Program rdf:ID="guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119">
+		<svu:programCode rdf:resource="MWT"/>
+		<svu:programName rdf:resource="Master in Webology"/>
+		<svu:programDirector rdf:resource="#guid_61aac629-f3f4-4381-933c-7cf75a21ab85"/>
+		<svu:programAtUni rdf:resource="http://dbpedia.org/resource/Syrian_Virtual_University"/>
+	</svu:Program>
+
+
+
+
+
+	<svu:Course rdf:ID="guid_07b48e34-1e03-45ea-b80b-742a58f1ef0b">
+		<svu:CourseCode rdf:resource="MGT345"/>
+		<svu:CourseName rdf:resource="Project Management"/>
+		<svu:CourseProgram rdf:resource="#guid_29e295e4-299f-4d47-8a07-4134d12c6a57"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_08ccba03-14d1-4c6d-8a05-793e799c6303">
+		<svu:CourseCode rdf:resource="VR"/>
+		<svu:CourseName rdf:resource="Virtual Reality"/>
+		<svu:CourseProgram rdf:resource="#guid_70ad39c0-d2dc-4380-abcb-19712fa9aec2"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_0a9717fe-56cc-41b1-a5c8-833e70937e4c">
+		<svu:CourseCode rdf:resource="AWM"/>
+		<svu:CourseName rdf:resource="Web Mining"/>
+		<svu:CourseProgram rdf:resource="#guid_3d627979-ec49-436c-acd3-ec27bffc1891"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_0ce7b370-dd45-426f-845b-0aa80dd1d887">
+		<svu:CourseCode rdf:resource="AWE"/>
+		<svu:CourseName rdf:resource="Web Engineering"/>
+		<svu:CourseProgram rdf:resource="#guid_3d627979-ec49-436c-acd3-ec27bffc1891"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_107d0f82-d100-4e46-9ff6-6d0940e58c66">
+		<svu:CourseCode rdf:resource="CG"/>
+		<svu:CourseName rdf:resource="Computer Graphics"/>
+		<svu:CourseProgram rdf:resource="#guid_70ad39c0-d2dc-4380-abcb-19712fa9aec2"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_10cdce0f-a15a-46f4-88d7-a3d3ff8c274e">
+		<svu:CourseCode rdf:resource="ADE"/>
+		<svu:CourseName rdf:resource="Advanced Concepts in Data Repository and Data Exchange"/>
+		<svu:CourseProgram rdf:resource="#guid_3d627979-ec49-436c-acd3-ec27bffc1891"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_124f4705-11d0-4ee5-9a37-8bce74a7a3ed">
+		<svu:CourseCode rdf:resource="WWD"/>
+		<svu:CourseName rdf:resource="Web Design"/>
+		<svu:CourseProgram rdf:resource="#guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_16c2aaaa-835d-4bef-a573-48bb7c379d27">
+		<svu:CourseCode rdf:resource="OB108"/>
+		<svu:CourseName rdf:resource="Organizational Behavior"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_1b484fd4-cb94-4f4f-8d32-f262f21ffe45">
+		<svu:CourseCode rdf:resource="WEC"/>
+		<svu:CourseName rdf:resource="Electronic Business"/>
+		<svu:CourseProgram rdf:resource="#guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_1fcc1147-7dd8-417b-b137-17d0954068cb">
+		<svu:CourseCode rdf:resource="IMT111"/>
+		<svu:CourseName rdf:resource="International Marketing and Trading"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_251d0965-f524-45a3-a6dc-5332d49f0454">
+		<svu:CourseCode rdf:resource="WXL"/>
+		<svu:CourseName rdf:resource="XML Techniques"/>
+		<svu:CourseProgram rdf:resource="#guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_2f3f07b8-0c99-40c5-b3b3-d831dbff292f">
+		<svu:CourseCode rdf:resource="AE614"/>
+		<svu:CourseName rdf:resource="Accounting Essentials 1"/>
+		<svu:CourseProgram rdf:resource="#guid_306f7caa-8051-4fa1-89a1-5bc0f7e986c5"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_362e663f-847f-446e-8712-de223ee63b80">
+		<svu:CourseCode rdf:resource="WDE"/>
+		<svu:CourseName rdf:resource="Data Exploring"/>
+		<svu:CourseProgram rdf:resource="#guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_3a445c1e-abfb-4e96-83c8-eb1a0b64eb1a">
+		<svu:CourseCode rdf:resource="AWS"/>
+		<svu:CourseName rdf:resource="Web Security"/>
+		<svu:CourseProgram rdf:resource="#guid_3d627979-ec49-436c-acd3-ec27bffc1891"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_448aeaae-b504-49d3-bc4f-3967ee3e6765">
+		<svu:CourseCode rdf:resource="MP"/>
+		<svu:CourseName rdf:resource="Microprocessor"/>
+		<svu:CourseProgram rdf:resource="#guid_70ad39c0-d2dc-4380-abcb-19712fa9aec2"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_48ec1514-e36f-43d6-8fd5-8879c1f479a1">
+		<svu:CourseCode rdf:resource="ITD415"/>
+		<svu:CourseName rdf:resource="Advanced Data Base Administration I"/>
+		<svu:CourseProgram rdf:resource="#guid_29e295e4-299f-4d47-8a07-4134d12c6a57"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_4ef1d871-e54d-4bc3-bac0-37416012494e">
+		<svu:CourseCode rdf:resource="WMS"/>
+		<svu:CourseName rdf:resource="Mobile Services"/>
+		<svu:CourseProgram rdf:resource="#guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_596af73d-de64-4617-a9d7-5284958911b7">
+		<svu:CourseCode rdf:resource="AN"/>
+		<svu:CourseName rdf:resource="Advanced Networking"/>
+		<svu:CourseProgram rdf:resource="#guid_70ad39c0-d2dc-4380-abcb-19712fa9aec2"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_66d26ed1-dd02-44d8-82e2-f24de5d553ff">
+		<svu:CourseCode rdf:resource="AMW"/>
+		<svu:CourseName rdf:resource="Mobile Web"/>
+		<svu:CourseProgram rdf:resource="#guid_3d627979-ec49-436c-acd3-ec27bffc1891"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_6f4ed729-73bb-463e-8fee-227d2ab55319">
+		<svu:CourseCode rdf:resource="OM105"/>
+		<svu:CourseName rdf:resource="Operations Management"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_70ed6d08-7da1-418b-8d30-cf766b5ab392">
+		<svu:CourseCode rdf:resource="CAM"/>
+		<svu:CourseName rdf:resource="Computer Applications Of Management"/>
+		<svu:CourseProgram rdf:resource="#guid_306f7caa-8051-4fa1-89a1-5bc0f7e986c5"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_717dd147-b8f1-4368-8672-f34f5d4b27c1">
+		<svu:CourseCode rdf:resource="WIS"/>
+		<svu:CourseName rdf:resource="Internet Security"/>
+		<svu:CourseProgram rdf:resource="#guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_7248432a-6d09-4893-b1b1-5e70255118c5">
+		<svu:CourseCode rdf:resource="ITI420"/>
+		<svu:CourseName rdf:resource="Data Networks"/>
+		<svu:CourseProgram rdf:resource="#guid_29e295e4-299f-4d47-8a07-4134d12c6a57"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_80d1e397-ee7d-4923-8e12-e37685f5f5aa">
+		<svu:CourseCode rdf:resource="AWP"/>
+		<svu:CourseName rdf:resource="Web Programming"/>
+		<svu:CourseProgram rdf:resource="#guid_3d627979-ec49-436c-acd3-ec27bffc1891"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_817e5060-5030-45b2-93ed-44210b864eaa">
+		<svu:CourseCode rdf:resource="WEG"/>
+		<svu:CourseName rdf:resource="Web Engineering"/>
+		<svu:CourseProgram rdf:resource="#guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_869756ce-51e7-4d03-a9d9-ebd460737f88">
+		<svu:CourseCode rdf:resource="FM107"/>
+		<svu:CourseName rdf:resource="Financial Mangement"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_927b2330-f3fb-4ab5-a6cc-6b61e14b7914">
+		<svu:CourseCode rdf:resource="WJD"/>
+		<svu:CourseName rdf:resource="Java Application Development"/>
+		<svu:CourseProgram rdf:resource="#guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_9441f7d0-7a90-477e-9c73-5e34a72bc99c">
+		<svu:CourseCode rdf:resource="AE622"/>
+		<svu:CourseName rdf:resource="Accounting Essentials 2"/>
+		<svu:CourseProgram rdf:resource="#guid_306f7caa-8051-4fa1-89a1-5bc0f7e986c5"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_a4662012-418c-4576-8c68-f612c018b9fe">
+		<svu:CourseCode rdf:resource="BA742"/>
+		<svu:CourseName rdf:resource="Banking Administration"/>
+		<svu:CourseProgram rdf:resource="#guid_306f7caa-8051-4fa1-89a1-5bc0f7e986c5"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_ab2ef20e-1af6-4d3f-9ae3-29c53a921272">
+		<svu:CourseCode rdf:resource="OS2"/>
+		<svu:CourseName rdf:resource="Operating Systems 2"/>
+		<svu:CourseProgram rdf:resource="#guid_70ad39c0-d2dc-4380-abcb-19712fa9aec2"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_ac1c10d6-6823-4ca7-a093-71ef07e3a1c0">
+		<svu:CourseCode rdf:resource="ITA310"/>
+		<svu:CourseName rdf:resource="Object Oriented Programming and Design"/>
+		<svu:CourseProgram rdf:resource="#guid_29e295e4-299f-4d47-8a07-4134d12c6a57"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_ac9e14b8-ab5c-49fb-911c-f69703d89e3a">
+		<svu:CourseCode rdf:resource="EA"/>
+		<svu:CourseName rdf:resource="Basics of Economics and Accounting"/>
+		<svu:CourseProgram rdf:resource="#guid_70ad39c0-d2dc-4380-abcb-19712fa9aec2"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_ad459499-aa94-4721-a9ab-f720498bd897">
+		<svu:CourseCode rdf:resource="PM112"/>
+		<svu:CourseName rdf:resource="Project Management"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_ae383706-9499-445b-b14e-5589b63d3253">
+		<svu:CourseCode rdf:resource="ME102"/>
+		<svu:CourseName rdf:resource="Managerial Economics"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_b5499de4-f2af-4e3f-a7a4-534961549936">
+		<svu:CourseCode rdf:resource="BRM109"/>
+		<svu:CourseName rdf:resource="Business Research Methods"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_b582a38e-175d-49d5-9085-626ea1917f81">
+		<svu:CourseCode rdf:resource="CB762"/>
+		<svu:CourseName rdf:resource="Commercial Banks"/>
+		<svu:CourseProgram rdf:resource="#guid_306f7caa-8051-4fa1-89a1-5bc0f7e986c5"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_ba2f3368-936e-4ab1-87e3-205f6010c477">
+		<svu:CourseCode rdf:resource="ADM"/>
+		<svu:CourseName rdf:resource="Data Mining"/>
+		<svu:CourseProgram rdf:resource="#guid_3d627979-ec49-436c-acd3-ec27bffc1891"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_bdec1f5d-52e4-45ff-8dff-f3fcaca185d4">
+		<svu:CourseCode rdf:resource="DAC113"/>
+		<svu:CourseName rdf:resource="Data Analysis by Computer"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_c442eff0-8784-4be7-8830-5c857cc590b5">
+		<svu:CourseCode rdf:resource="CIM961"/>
+		<svu:CourseName rdf:resource="Contemporary Issues In Marketing"/>
+		<svu:CourseProgram rdf:resource="#guid_306f7caa-8051-4fa1-89a1-5bc0f7e986c5"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_c6abb8bb-9032-41ae-822a-8a90691add29">
+		<svu:CourseCode rdf:resource="ADP"/>
+		<svu:CourseName rdf:resource="Distributed Applications Programming"/>
+		<svu:CourseProgram rdf:resource="#guid_3d627979-ec49-436c-acd3-ec27bffc1891"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_ccae1406-4b87-49f6-a40a-4161eddca71f">
+		<svu:CourseCode rdf:resource="WNT"/>
+		<svu:CourseName rdf:resource="Networks"/>
+		<svu:CourseProgram rdf:resource="#guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_d64dae23-9b90-49d9-bed2-e2bff7563dd3">
+		<svu:CourseCode rdf:resource="ITC230"/>
+		<svu:CourseName rdf:resource="Introduction to Programming"/>
+		<svu:CourseProgram rdf:resource="#guid_29e295e4-299f-4d47-8a07-4134d12c6a57"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_dbe919af-378d-43c7-a490-d72f6009736d">
+		<svu:CourseCode rdf:resource="MIS110"/>
+		<svu:CourseName rdf:resource="Management Information Systems"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_deab891a-f93b-4c7d-9aba-cf9e642f11da">
+		<svu:CourseCode rdf:resource="AIR"/>
+		<svu:CourseName rdf:resource="Information Retrieval"/>
+		<svu:CourseProgram rdf:resource="#guid_3d627979-ec49-436c-acd3-ec27bffc1891"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_e4ca6f38-4400-47c3-85c0-37740dca1fda">
+		<svu:CourseCode rdf:resource="HRM103"/>
+		<svu:CourseName rdf:resource="Human Resources Management"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_e5171b5b-2927-4ffd-a7e1-9612f89688ef">
+		<svu:CourseCode rdf:resource="AA"/>
+		<svu:CourseName rdf:resource="Administrative accounting"/>
+		<svu:CourseProgram rdf:resource="#guid_306f7caa-8051-4fa1-89a1-5bc0f7e986c5"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_e70f1462-8538-43ed-a002-454f23fbf7af">
+		<svu:CourseCode rdf:resource="ITC100"/>
+		<svu:CourseName rdf:resource="Discrete Mathematics"/>
+		<svu:CourseProgram rdf:resource="#guid_29e295e4-299f-4d47-8a07-4134d12c6a57"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_e969d45c-e875-4c2a-a480-40006edd622e">
+		<svu:CourseCode rdf:resource="ITD310"/>
+		<svu:CourseName rdf:resource="Advanced SQL Programming"/>
+		<svu:CourseProgram rdf:resource="#guid_29e295e4-299f-4d47-8a07-4134d12c6a57"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_ead699f5-00ed-4d10-ad2a-21037ce7f7e3">
+		<svu:CourseCode rdf:resource="AE"/>
+		<svu:CourseName rdf:resource="Artificial Intelligence"/>
+		<svu:CourseProgram rdf:resource="#guid_70ad39c0-d2dc-4380-abcb-19712fa9aec2"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_ed15ad63-07f8-4d08-81f4-0b2e662ae789">
+		<svu:CourseCode rdf:resource="WIM"/>
+		<svu:CourseName rdf:resource="Internet and Multimedia"/>
+		<svu:CourseProgram rdf:resource="#guid_fe5c7ddb-c18b-4fe3-85d6-23926e30c119"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_ef6366b6-8be3-4ddf-ad02-882646fa8581">
+		<svu:CourseCode rdf:resource="AHM"/>
+		<svu:CourseName rdf:resource="Hyper and Multimedia"/>
+		<svu:CourseProgram rdf:resource="#guid_3d627979-ec49-436c-acd3-ec27bffc1891"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_efdc5e02-88cf-43b2-a641-cbc417b931f5">
+		<svu:CourseCode rdf:resource="ITD420"/>
+		<svu:CourseName rdf:resource="Advanced Data Base Administration II"/>
+		<svu:CourseProgram rdf:resource="#guid_29e295e4-299f-4d47-8a07-4134d12c6a57"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_f24f8d58-d2e4-4aac-b638-850afde92e26">
+		<svu:CourseCode rdf:resource="AS"/>
+		<svu:CourseName rdf:resource="Algebraic Structures"/>
+		<svu:CourseProgram rdf:resource="#guid_70ad39c0-d2dc-4380-abcb-19712fa9aec2"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_f6958e47-6cba-4590-9e16-bf3c9383c774">
+		<svu:CourseCode rdf:resource="AO"/>
+		<svu:CourseName rdf:resource="Administrative Organization"/>
+		<svu:CourseProgram rdf:resource="#guid_306f7caa-8051-4fa1-89a1-5bc0f7e986c5"/>
+	</svu:Course>
+
+	<svu:Course rdf:ID="guid_fb2f504e-2b92-48a9-993d-3d00d492395b">
+		<svu:CourseCode rdf:resource="BL114"/>
+		<svu:CourseName rdf:resource="Business Law"/>
+		<svu:CourseProgram rdf:resource="#guid_f7ae1eac-a0c6-4766-8e3f-397ab434fb79"/>
+	</svu:Course>
+
+
+
+
+
+	<svu:Tutor rdf:ID="guid_04668d3d-693d-46e4-b54d-b942d292f282">
+		<foaf:firstName rdf:resource="Ehsan"/>
+		<foaf:familyName rdf:resource="Refaee"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_e969d45c-e875-4c2a-a480-40006edd622e"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_0b27ce28-6d0a-483a-a63a-f09c40f56f31">
+		<foaf:firstName rdf:resource="Osama"/>
+		<foaf:familyName rdf:resource="Al Khayat"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_9441f7d0-7a90-477e-9c73-5e34a72bc99c"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_0bf53528-de06-4dc9-af50-357d8e5ad2c0">
+		<foaf:firstName rdf:resource="Mohammad"/>
+		<foaf:familyName rdf:resource="Ahmad"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_124f4705-11d0-4ee5-9a37-8bce74a7a3ed"/>
+		<svu:teaches rdf:resource="#guid_817e5060-5030-45b2-93ed-44210b864eaa"/>
+		<svu:teaches rdf:resource="#guid_927b2330-f3fb-4ab5-a6cc-6b61e14b7914"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_0e59ebcc-4ce1-4213-9cd6-197909a2053d">
+		<foaf:firstName rdf:resource="Sami"/>
+		<foaf:familyName rdf:resource="Khiami"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_ed15ad63-07f8-4d08-81f4-0b2e662ae789"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_0f856e5c-46f6-47bd-ba05-3ed274a70ea6">
+		<foaf:firstName rdf:resource="Souliman"/>
+		<foaf:familyName rdf:resource="Awad"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_6f4ed729-73bb-463e-8fee-227d2ab55319"/>
+		<svu:teaches rdf:resource="#guid_dbe919af-378d-43c7-a490-d72f6009736d"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_10b0a085-3ec2-4b52-a393-02e157941edf">
+		<foaf:firstName rdf:resource="Nariman"/>
+		<foaf:familyName rdf:resource="Ammar"/>
+		<foaf:gender rdf:resource="Female"/>
+		<svu:teaches rdf:resource="#guid_c442eff0-8784-4be7-8830-5c857cc590b5"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_1356c9b4-712d-475f-bb22-ed5a60dedff4">
+		<foaf:firstName rdf:resource="Iyad"/>
+		<foaf:familyName rdf:resource="Hatem"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_e70f1462-8538-43ed-a002-454f23fbf7af"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_15e0edde-bd75-44d4-b59d-535f61e63784">
+		<foaf:firstName rdf:resource="Shadi"/>
+		<foaf:familyName rdf:resource="Bitar"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_6f4ed729-73bb-463e-8fee-227d2ab55319"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_257a3321-b851-4212-b2e3-34704a2e928c">
+		<foaf:firstName rdf:resource="Mohammad"/>
+		<foaf:familyName rdf:resource="Hamra"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_b582a38e-175d-49d5-9085-626ea1917f81"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_291b7abb-424f-4cba-af1c-71d41cf03137">
+		<foaf:firstName rdf:resource="Bassam"/>
+		<foaf:familyName rdf:resource="Kurdy"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_362e663f-847f-446e-8712-de223ee63b80"/>
+		<svu:teaches rdf:resource="#guid_ba2f3368-936e-4ab1-87e3-205f6010c477"/>
+		<svu:teaches rdf:resource="#guid_deab891a-f93b-4c7d-9aba-cf9e642f11da"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_346b8c69-62c7-47be-87cd-aa158e89cd92">
+		<foaf:firstName rdf:resource="Mhd"/>
+		<foaf:familyName rdf:resource="Hussein"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_efdc5e02-88cf-43b2-a641-cbc417b931f5"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_3e32f651-79e8-4376-bb65-532d81b0f6c2">
+		<foaf:firstName rdf:resource="Hayan"/>
+		<foaf:familyName rdf:resource="Dib"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_bdec1f5d-52e4-45ff-8dff-f3fcaca185d4"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_3ec4832f-682d-432d-8c55-cf9f5ccf74ec">
+		<foaf:firstName rdf:resource="Samir"/>
+		<foaf:familyName rdf:resource="Jafar"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_70ed6d08-7da1-418b-8d30-cf766b5ab392"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_3fa14302-a6a6-4ae3-9b98-108c8e143756">
+		<foaf:firstName rdf:resource="Mohamad"/>
+		<foaf:familyName rdf:resource="Al Khedr"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_b5499de4-f2af-4e3f-a7a4-534961549936"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_464f375c-0978-40c3-b7a8-54b6fcc3d456">
+		<foaf:firstName rdf:resource="Nidal"/>
+		<foaf:familyName rdf:resource="Chamoun"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_f24f8d58-d2e4-4aac-b638-850afde92e26"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_4c8eaa6f-63de-402b-b2c7-f0a9fea3fda4">
+		<foaf:firstName rdf:resource="Hames"/>
+		<foaf:familyName rdf:resource="Zreik"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_48ec1514-e36f-43d6-8fd5-8879c1f479a1"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_5392db15-c987-44ae-88a1-5c0d85bef909">
+		<foaf:firstName rdf:resource="Jamal"/>
+		<foaf:familyName rdf:resource="Batikh"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_48ec1514-e36f-43d6-8fd5-8879c1f479a1"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_583b4b63-16d5-443a-b596-a6b923300126">
+		<foaf:firstName rdf:resource="Mhd"/>
+		<foaf:familyName rdf:resource="Mahayni"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_869756ce-51e7-4d03-a9d9-ebd460737f88"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_59b4fbca-a7e3-4867-ae82-156a52364b27">
+		<foaf:firstName rdf:resource="Riham"/>
+		<foaf:familyName rdf:resource="Nasleh"/>
+		<foaf:gender rdf:resource="Female"/>
+		<svu:teaches rdf:resource="#guid_e969d45c-e875-4c2a-a480-40006edd622e"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_5ab5051b-5b92-4a2a-b96d-94a1ad755fb8">
+		<foaf:firstName rdf:resource="Muhammad"/>
+		<foaf:familyName rdf:resource="Al Mustafa"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_4ef1d871-e54d-4bc3-bac0-37416012494e"/>
+		<svu:teaches rdf:resource="#guid_66d26ed1-dd02-44d8-82e2-f24de5d553ff"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_5de300aa-491b-4526-9450-cee52b976ba7">
+		<foaf:firstName rdf:resource="Alaa"/>
+		<foaf:familyName rdf:resource="Karmeh"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_07b48e34-1e03-45ea-b80b-742a58f1ef0b"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_6107dc9e-72fe-429a-94f9-c7380bd7ca45">
+		<foaf:firstName rdf:resource="Iyad"/>
+		<foaf:familyName rdf:resource="Zoukar"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_ad459499-aa94-4721-a9ab-f720498bd897"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_61aac629-f3f4-4381-933c-7cf75a21ab85">
+		<foaf:firstName rdf:resource="Salah"/>
+		<foaf:familyName rdf:resource="Dowaji"/>
+		<foaf:gender rdf:resource="Male"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_646b3baa-0303-480f-9665-789346fefdb2">
+		<foaf:firstName rdf:resource="Naila"/>
+		<foaf:familyName rdf:resource="Zakaria"/>
+		<foaf:gender rdf:resource="Female"/>
+		<svu:teaches rdf:resource="#guid_2f3f07b8-0c99-40c5-b3b3-d831dbff292f"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_674584ec-4c09-4131-9e8f-bf2e61e6b3e6">
+		<foaf:firstName rdf:resource="Khalil"/>
+		<foaf:familyName rdf:resource="Ajami"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_10cdce0f-a15a-46f4-88d7-a3d3ff8c274e"/>
+		<svu:teaches rdf:resource="#guid_251d0965-f524-45a3-a6dc-5332d49f0454"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_689aeee7-e5ae-465f-80b8-0e211ebe03f4">
+		<foaf:firstName rdf:resource="Jamal"/>
+		<foaf:familyName rdf:resource="Khalifeh"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_e70f1462-8538-43ed-a002-454f23fbf7af"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_6d077024-2911-4557-8122-ef67d62f5f49">
+		<foaf:firstName rdf:resource="Issam"/>
+		<foaf:familyName rdf:resource="Haidar"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_f6958e47-6cba-4590-9e16-bf3c9383c774"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_7694c22f-d330-4cfd-8973-2e528378416f">
+		<foaf:firstName rdf:resource="Zein"/>
+		<foaf:familyName rdf:resource="Juneidi"/>
+		<foaf:gender rdf:resource="Male"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_7c4d49b3-258f-4e1b-975b-8a33071d94ec">
+		<foaf:firstName rdf:resource="Ahmad"/>
+		<foaf:familyName rdf:resource="Tabbaa"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_2f3f07b8-0c99-40c5-b3b3-d831dbff292f"/>
+		<svu:teaches rdf:resource="#guid_869756ce-51e7-4d03-a9d9-ebd460737f88"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_7d961f4a-c055-47d7-b11b-be494bc3cbb2">
+		<foaf:firstName rdf:resource="Botrous"/>
+		<foaf:familyName rdf:resource="Maialah"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_e5171b5b-2927-4ffd-a7e1-9612f89688ef"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_87be1d73-e507-4d16-a661-83eb135c7eeb">
+		<foaf:firstName rdf:resource="Ghassan"/>
+		<foaf:familyName rdf:resource="Fallouh"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_ccae1406-4b87-49f6-a40a-4161eddca71f"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_962fcc4b-c6c1-472d-a1d1-b578e7e041f2">
+		<foaf:firstName rdf:resource="Abdulhameed"/>
+		<foaf:familyName rdf:resource="Al Khalil"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_16c2aaaa-835d-4bef-a573-48bb7c379d27"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_98ad11c7-5668-4319-91b8-592d6579c2d0">
+		<foaf:firstName rdf:resource="Ammar"/>
+		<foaf:familyName rdf:resource="Sabbagh"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_48ec1514-e36f-43d6-8fd5-8879c1f479a1"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_9a5359eb-995b-4bc4-84fe-82ba4028c0df">
+		<foaf:firstName rdf:resource="Maya"/>
+		<foaf:familyName rdf:resource="Jdeed"/>
+		<foaf:gender rdf:resource="Female"/>
+		<svu:teaches rdf:resource="#guid_e969d45c-e875-4c2a-a480-40006edd622e"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_9dd09c93-1caf-4186-88f8-d960288bec53">
+		<foaf:firstName rdf:resource="Mhd"/>
+		<foaf:familyName rdf:resource="Rehawi"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_2f3f07b8-0c99-40c5-b3b3-d831dbff292f"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_9efb4d43-d2ef-41af-b53f-4a4c3419d234">
+		<foaf:firstName rdf:resource="Kadan"/>
+		<foaf:familyName rdf:resource="Al Joumaa"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_efdc5e02-88cf-43b2-a641-cbc417b931f5"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_a15d5279-5304-4168-a8b8-ce38d4acdf08">
+		<foaf:firstName rdf:resource="Adel"/>
+		<foaf:familyName rdf:resource="Nader"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_e70f1462-8538-43ed-a002-454f23fbf7af"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_a22f86f9-40a1-433d-84b6-a743d0504007">
+		<foaf:firstName rdf:resource="Oumayma"/>
+		<foaf:familyName rdf:resource="Dakkak"/>
+		<foaf:gender rdf:resource="Female"/>
+		<svu:teaches rdf:resource="#guid_ead699f5-00ed-4d10-ad2a-21037ce7f7e3"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_a6280d5c-ba51-4921-9e38-68e56bdd5974">
+		<foaf:firstName rdf:resource="Moutasem"/>
+		<foaf:familyName rdf:resource="Shafamri"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_3a445c1e-abfb-4e96-83c8-eb1a0b64eb1a"/>
+		<svu:teaches rdf:resource="#guid_717dd147-b8f1-4368-8672-f34f5d4b27c1"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_a7a03544-c3f8-4d5f-9f30-e8943c3406cd">
+		<foaf:firstName rdf:resource="Amer"/>
+		<foaf:familyName rdf:resource="Saad"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_07b48e34-1e03-45ea-b80b-742a58f1ef0b"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_a7c8a7b1-4506-4f7e-9e75-37937a3d05f1">
+		<foaf:firstName rdf:resource="Amal"/>
+		<foaf:familyName rdf:resource="Sharba"/>
+		<foaf:gender rdf:resource="Female"/>
+		<svu:teaches rdf:resource="#guid_fb2f504e-2b92-48a9-993d-3d00d492395b"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_affadd8a-d959-47e5-86e6-e58118b3e632">
+		<foaf:firstName rdf:resource="Ghazwan"/>
+		<foaf:familyName rdf:resource="Ali"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_a4662012-418c-4576-8c68-f612c018b9fe"/>
+		<svu:teaches rdf:resource="#guid_b5499de4-f2af-4e3f-a7a4-534961549936"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_b4436e2d-b2df-4965-a32f-91f5efafd0b9">
+		<foaf:firstName rdf:resource="Lubna"/>
+		<foaf:familyName rdf:resource="Al Tarah"/>
+		<foaf:gender rdf:resource="Female"/>
+		<svu:teaches rdf:resource="#guid_1b484fd4-cb94-4f4f-8d32-f262f21ffe45"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_b4d7d54a-3ef1-47a6-9d1a-25be0b26d7d5">
+		<foaf:firstName rdf:resource="Mohamad"/>
+		<foaf:familyName rdf:resource="Al Jnidi"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_c6abb8bb-9032-41ae-822a-8a90691add29"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_b4e3eac4-f57e-4100-89e3-bd3a5356b9bc">
+		<foaf:firstName rdf:resource="Oussama"/>
+		<foaf:familyName rdf:resource="Al Farraj"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_e4ca6f38-4400-47c3-85c0-37740dca1fda"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_b5fe649e-fe0a-4aa6-bed4-7f5d43d363a5">
+		<foaf:firstName rdf:resource="Tarek"/>
+		<foaf:familyName rdf:resource="Sati"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_e969d45c-e875-4c2a-a480-40006edd622e"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_b8d319b6-f019-45fb-81fb-733579879227">
+		<foaf:firstName rdf:resource="Hussein"/>
+		<foaf:familyName rdf:resource="Al Fahel"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_1fcc1147-7dd8-417b-b137-17d0954068cb"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_bd3114aa-9fde-42a2-9f86-582ad9ea251c">
+		<foaf:firstName rdf:resource="Ghassan"/>
+		<foaf:familyName rdf:resource="Chaddoud"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_596af73d-de64-4617-a9d7-5284958911b7"/>
+		<svu:teaches rdf:resource="#guid_7248432a-6d09-4893-b1b1-5e70255118c5"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_bd61fd79-06ab-4af2-8adc-eb93ee949af5">
+		<foaf:firstName rdf:resource="Ibaa"/>
+		<foaf:familyName rdf:resource="Oueichek"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_7248432a-6d09-4893-b1b1-5e70255118c5"/>
+		<svu:teaches rdf:resource="#guid_ab2ef20e-1af6-4d3f-9ae3-29c53a921272"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_bed7e554-4fcb-490d-afe6-3d82d3296e9f">
+		<foaf:firstName rdf:resource="Radwan"/>
+		<foaf:familyName rdf:resource="Kastantin"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_448aeaae-b504-49d3-bc4f-3967ee3e6765"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_c1d1acb6-4555-43a3-89ae-c42189b2b258">
+		<foaf:firstName rdf:resource="Saleh"/>
+		<foaf:familyName rdf:resource="Al Ayoubi"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_ac1c10d6-6823-4ca7-a093-71ef07e3a1c0"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_c6536fff-f8ea-4d3a-9e64-e83eed982beb">
+		<foaf:firstName rdf:resource="Modar"/>
+		<foaf:familyName rdf:resource="Dukhan"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_b5499de4-f2af-4e3f-a7a4-534961549936"/>
+		<svu:teaches rdf:resource="#guid_dbe919af-378d-43c7-a490-d72f6009736d"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_cf320cf5-a2b3-496c-aeff-6ba8b641640e">
+		<foaf:firstName rdf:resource="Zoher"/>
+		<foaf:familyName rdf:resource="Dahrouj"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_d64dae23-9b90-49d9-bed2-e2bff7563dd3"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_d490faa7-3be7-44c7-97a3-eae4bd9d5a80">
+		<foaf:firstName rdf:resource="Mhd"/>
+		<foaf:familyName rdf:resource="Abou Trab"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_0ce7b370-dd45-426f-845b-0aa80dd1d887"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_d5aaf3f3-c55c-4e9b-9e71-45de2b544bec">
+		<foaf:firstName rdf:resource="Moaz"/>
+		<foaf:familyName rdf:resource="Al Jazeerli"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_ae383706-9499-445b-b14e-5589b63d3253"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_e2c8b2f9-7537-4d6f-a8b7-7531a710e5d2">
+		<foaf:firstName rdf:resource="Fatima"/>
+		<foaf:familyName rdf:resource="Bader"/>
+		<foaf:gender rdf:resource="Female"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_e6420053-94e2-4a71-a954-265d0c4c6d66">
+		<foaf:firstName rdf:resource="Ayman"/>
+		<foaf:familyName rdf:resource="Dayoub"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_ac9e14b8-ab5c-49fb-911c-f69703d89e3a"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_e7da399e-f638-420c-a34c-076e7c828e4e">
+		<foaf:firstName rdf:resource="Ghassan"/>
+		<foaf:familyName rdf:resource="Kweiter"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_08ccba03-14d1-4c6d-8a05-793e799c6303"/>
+		<svu:teaches rdf:resource="#guid_107d0f82-d100-4e46-9ff6-6d0940e58c66"/>
+		<svu:teaches rdf:resource="#guid_ac1c10d6-6823-4ca7-a093-71ef07e3a1c0"/>
+		<svu:teaches rdf:resource="#guid_ef6366b6-8be3-4ddf-ad02-882646fa8581"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_f04364f7-df5e-44ed-85ff-6d462c605e90">
+		<foaf:firstName rdf:resource="Afaf"/>
+		<foaf:familyName rdf:resource="Al Shalaby"/>
+		<foaf:gender rdf:resource="Female"/>
+		<svu:teaches rdf:resource="#guid_ead699f5-00ed-4d10-ad2a-21037ce7f7e3"/>
+	</svu:Tutor>
+
+	<svu:Tutor rdf:ID="guid_fd3555a6-7baf-4762-a09e-d2f047914559">
+		<foaf:firstName rdf:resource="Bassel"/>
+		<foaf:familyName rdf:resource="Al Khatib"/>
+		<foaf:gender rdf:resource="Male"/>
+		<svu:teaches rdf:resource="#guid_0a9717fe-56cc-41b1-a5c8-833e70937e4c"/>
+		<svu:teaches rdf:resource="#guid_362e663f-847f-446e-8712-de223ee63b80"/>
+		<svu:teaches rdf:resource="#guid_80d1e397-ee7d-4923-8e12-e37685f5f5aa"/>
+		<svu:teaches rdf:resource="#guid_ba2f3368-936e-4ab1-87e3-205f6010c477"/>
+		<svu:teaches rdf:resource="#guid_deab891a-f93b-4c7d-9aba-cf9e642f11da"/>
+	</svu:Tutor>
+
+
+
+
+</rdf:RDF>
